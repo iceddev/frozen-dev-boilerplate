@@ -15,6 +15,7 @@
   "devDependencies": {
     "grunt-dojo": "~0.1.1",
     "grunt-reload": "~0.2.0",
-    "grunt-contrib-clean": "~0.3.1"
+    "grunt-contrib-clean": "~0.3.1",
+    "grunt": "~0.3.17"
   }
 }
