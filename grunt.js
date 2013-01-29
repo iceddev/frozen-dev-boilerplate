@@ -21,7 +21,8 @@ module.exports = function(grunt) {
         dojo: 'deps/dojo/dojo.js',
         profile: 'game.profile.js',
         'package': './',
-        cwd: './'
+        cwd: './',
+        dojoConfig: 'dojoConfig.js'
       }
     },
     reload: {
