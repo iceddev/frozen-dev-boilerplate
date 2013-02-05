@@ -1,6 +1,6 @@
 {
   "name": "frozen-dev-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "volo": {
     "baseUrl": "deps",
     "dependencies": {
