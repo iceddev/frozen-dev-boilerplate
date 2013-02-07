@@ -68,7 +68,10 @@ var profile = (function(){
       },
       "dist/game": {
         include: [
-          'game'
+          'game',
+          // Sounds are loaded dynamically, so include them in build - remove these if no sounds are used
+          'frozen/sounds/WebAudio',
+          'frozen/sounds/HTML5Audio'
         ],
         customBase: true,
         boot: true
