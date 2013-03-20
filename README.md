@@ -13,7 +13,7 @@ Install [`volo`](http://volojs.org/)
 Then use `volo create` to start a new project
 
 ```bash
-> volo create new_project iceddev/frozen-dev-boilerplate
+> volo create new_project frozenjs/boilerplate
 ```
 
 ## Development
