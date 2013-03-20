@@ -4,6 +4,8 @@ define([
   'frozen/GameCore'
 ], function(update, draw, GameCore){
 
+  'use strict';
+
   //setup a GameCore instance
   var game = new GameCore({
     canvasId: 'canvas',
