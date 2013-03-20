@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Frozen Development Boilerplate</title>
+    <title>{NAME}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="gameStyles.css" type="text/css" rel="stylesheet" />
+    <link href="styles/game.css" type="text/css" rel="stylesheet" />
     <script src="dojoConfig.js"></script>
     <script src="deps/Box2d.min.js"></script>
     <script src="dist/game.js"></script>
@@ -22,6 +22,9 @@
   <body>
     <div id="gameArea">
       <canvas id="canvas" width="700" height="440" ></canvas>
+      <div id="status">
+        {NAME} created with <a href="http://frozenjs.com">FrozenJS</a>
+      </div>
     </div>
   </body>
 </html>
